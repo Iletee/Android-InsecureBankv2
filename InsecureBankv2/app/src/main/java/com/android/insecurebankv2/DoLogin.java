@@ -175,7 +175,11 @@ public class DoLogin extends Activity {
 			});
 
 		}
+		
+		private void demoFunction() {
+			
 
+		}
 		/*
 		The function that saves the credentials locally for future reference
 		username: username entered by the user
