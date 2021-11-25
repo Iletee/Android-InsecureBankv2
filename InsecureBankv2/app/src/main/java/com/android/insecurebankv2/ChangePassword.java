@@ -126,6 +126,8 @@ public class ChangePassword extends Activity {
 		*/
 		public void postData(String valueIWantToSend) throws ClientProtocolException, IOException, JSONException, InvalidKeyException, NoSuchAlgorithmException, NoSuchPaddingException, InvalidAlgorithmParameterException, IllegalBlockSizeException, BadPaddingException {
 			HttpClient httpclient = new DefaultHttpClient();
+			HttpClient httpclient2 = new DefaultHttpClient();
+
 			HttpPost httppost = new HttpPost(protocol + serverip + ":" + serverport + "/changepassword");
 			List < NameValuePair > nameValuePairs = new ArrayList < NameValuePair > (2);
 
