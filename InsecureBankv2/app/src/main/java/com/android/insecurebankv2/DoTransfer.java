@@ -86,7 +86,7 @@ public class DoTransfer extends Activity {
 
         // Get Server details from Shared Preference file.
         serverDetails = PreferenceManager.getDefaultSharedPreferences(this);
-		serverip = serverDetails.getString("serverip", null);
+		 serverDetails = PreferenceManager.getDefaultSharedPreferences(this);		serverip = serverDetails.getString("serverip", null);
 		serverport = serverDetails.getString("serverport", null);
 
         // Handle the transfer functionality
